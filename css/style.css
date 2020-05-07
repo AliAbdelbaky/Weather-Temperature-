@@ -1,0 +1,129 @@
+body {
+  color: #ffffff;
+}
+body .hello {
+  background-color: #1a1a1a;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+body .hello .content {
+  margin-top: 2%;
+}
+body .hello .content .navbar img {
+  width: 3%;
+}
+body .hello .content h5 {
+  font-size: 15px;
+  transform: rotate(-90deg);
+  margin-top: 45%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+body .hello .content h2 {
+  float: right;
+  font-size: 9rem;
+}
+body .hello .content h2 span {
+  color: #ff5453;
+  font-size: 8rem;
+}
+body .hello .content ol {
+  list-style: none;
+  margin-left: 25%;
+}
+body .hello .content ol li {
+  color: #b7b3b3;
+  transform: rotate(-90deg);
+  margin-bottom: 6rem;
+  text-transform: uppercase;
+  width: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+body .hello .content ol li:hover {
+  color: #ffffff;
+}
+/* media Qurey */
+@media (min-width: 250px) and (max-width: 392.98px) {
+  body .hello .content h5 {
+    font-size: 10px;
+    transform: none;
+    margin-top: unset;
+  }
+  body .hello .content h2 {
+    float: unset;
+    font-size: 4rem;
+  }
+  body .hello .content ol {
+    margin-left: -19%;
+    text-align: center;
+  }
+  body .hello .content ol li {
+    transform: unset;
+    margin-bottom: unset;
+    display: inline-block;
+    font-size: 7px;
+    width: auto;
+  }
+}
+@media (min-width: 392.99px) and (max-width: 575.98px) {
+  body .hello .content h5 {
+    font-size: 10px;
+    transform: none;
+    margin-top: unset;
+  }
+  body .hello .content h2 {
+    float: unset;
+    font-size: 5rem;
+  }
+  body .hello .content ol {
+    margin-left: -19%;
+    text-align: center;
+  }
+  body .hello .content ol li {
+    transform: unset;
+    margin-bottom: unset;
+    display: inline-block;
+    font-size: 10px;
+    width: auto;
+  }
+}
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+  body .hello .content h5 {
+    font-size: 10px;
+    transform: none;
+    margin-top: unset;
+  }
+  body .hello .content h2 {
+    float: unset;
+    font-size: 4rem;
+  }
+  body .hello .content ol {
+    margin-left: -19%;
+    text-align: center;
+  }
+  body .hello .content ol li {
+    transform: unset;
+    margin-bottom: unset;
+    display: inline-block;
+    font-size: 10px;
+    width: auto;
+  }
+}
+@media (min-width: 767.99px) and (max-width: 1199.98px) {
+  body .hello .content h2 {
+    float: right;
+    font-size: 6rem;
+  }
+  body .hello .content ol {
+    list-style: none;
+    margin-left: unset;
+  }
+  body .hello .content ol li {
+    margin-bottom: 58px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 1200px);

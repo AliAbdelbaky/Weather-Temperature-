@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  background-color: #26293A;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif; }
+  body .navbar ol {
+    list-style: none;
+    margin: auto; }
+    body .navbar ol li {
+      display: inline-block;
+      cursor: pointer;
+      margin-left: 30px; }
+  body .weather {
+    transform: translate(0%, 20%); }
+    body .weather h5 {
+      color: #81838D; }
+    body .weather form .form-control {
+      width: 70%; }
+    body .weather form .btn-primary {
+      width: 30%; }
+    body .weather .search-info ol {
+      list-style: none; }
+      body .weather .search-info ol li {
+        font-size: 2rem;
+        margin-bottom: 10px; }
+        body .weather .search-info ol li:nth-child(1) {
+          color: #EC6E4C;
+          font-size: 6rem; }
+
+/*# sourceMappingURL=weather.css.map */

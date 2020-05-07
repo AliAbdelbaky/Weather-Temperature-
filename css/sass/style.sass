@@ -1,0 +1,44 @@
+@import _include-media.scss
+$bgColor : #1A1A1A
+$fontColor : #ffffff
+$MainBoxShadow : 0px 0px 27px 5px rgba(12, 12, 12,.45)
+$mainTran : all .2s ease-in-out
+body
+    color: $fontColor
+    .hello
+        background-color: $bgColor
+        position: absolute
+        height: 100%
+        width: 100%
+        .content
+            margin-top: 2%
+            .navbar
+                img
+                    width: 1%
+            h5
+                font-size: 15px
+                transform: rotate(-90deg)
+                margin-top: 45%
+                text-align: left
+                display: flex
+                justify-content: center
+            h2
+                float: right
+                font-size: 9rem
+                span
+                    color: #FF5453
+                    font-size: 8rem
+            ol
+                list-style: none
+                margin-left: 25%
+                li
+                    color: #b7b3b3
+                    transform: rotate(-90deg)
+                    margin-bottom: 6rem
+                    text-transform: uppercase
+                    width: 50%
+                    cursor: pointer
+                    transition: $mainTran
+                    &:hover
+                        color: $fontColor
+

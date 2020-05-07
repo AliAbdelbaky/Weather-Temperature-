@@ -1,0 +1,33 @@
+$bgColor : #26293A
+$fontC : #ffffff
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap')
+body
+    background-color: $bgColor
+    color: $fontC 
+    font-family: 'Ubuntu', sans-serif
+    .navbar
+        ol
+            list-style: none
+            margin: auto
+            li
+                display: inline-block
+                cursor: pointer
+                margin-left: 30px
+    .weather
+        transform: translate(0%, 20%)
+        h5
+            color: #81838D
+        form
+            .form-control 
+                width: 70%
+            .btn-primary
+                width: 30%
+        .search-info
+            ol
+                list-style: none
+                li
+                    font-size: 2rem
+                    margin-bottom: 10px
+                    &:nth-child(1)
+                        color: #EC6E4C
+                        font-size: 6rem
